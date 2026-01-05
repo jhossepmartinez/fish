@@ -11,6 +11,9 @@ alias gb="git branch"
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -n 10"
 alias gla="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gri="git rebase -i"
+alias grc="git rebase --continue"
+alias gro="git rebase --onto"
+alias gra="git rebase --abort"
 
 # Utilities
 alias cl="clear"
